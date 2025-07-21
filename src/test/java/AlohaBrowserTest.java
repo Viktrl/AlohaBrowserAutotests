@@ -17,10 +17,12 @@ public class AlohaBrowserTest {
     @BeforeAll
     public static void setUp() {
         try {
+            //Объявляем настройки для Mac2Driver
             Mac2Options options = new Mac2Options();
             options.setCapability("appPath", "/Applications/Aloha.app");
             options.setCapability("platformName", "mac");
 
+            //Создаем экземпляр Mac2Driver с указанными настройками
             driver = new Mac2Driver(new URL("http://127.0.0.1:4723/"), options);
         } catch (MalformedURLException e) {
             throw new RuntimeException(e);
