@@ -4,7 +4,7 @@
    - в терминале выполнить sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
    - Дать доступ Xcode Helper к Универсальному доступу в настройках системы
    - в терминале выполнить automationmodetool enable-automationmode-without-authentication
-   (https://appium.io/docs/en/latest/quickstart/requirements/
+   (https://appium.io/docs/en/latest/quickstart/requirements/ и
    https://github.com/appium/appium-mac2-driver)
    - Node.js
    - npm
