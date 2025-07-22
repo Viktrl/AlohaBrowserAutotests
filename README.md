@@ -14,4 +14,5 @@
    - npm install -g appium-mac2-driver
 4. Запустить Appium:
    - appium
-5. Запустить тесты
+5. На маке в папке /Applications пользователя должно быть приложение Aloha.app
+6. Запустить тесты
